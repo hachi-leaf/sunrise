@@ -62,7 +62,7 @@ def postprocess(model_output,
     return nms_bboxes
 
 
-def get_classes(class_file_name='coco_classes.names'):
+def get_classes(class_file_name='hand.names'):
     '''loads class name from a file'''
     names = {}
     with open(class_file_name, 'r') as data:
